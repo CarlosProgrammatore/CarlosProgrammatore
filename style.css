@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Imposta la direzione della flessione come verticale */
+    background: linear-gradient(to right, #8e44ad, #3498db, #1abc9c); /* Gradient di colori */
+}
+
+header {
+    display: flex;
+    justify-content: center; /* Corretta allineamento al centro */
+    align-items: center; /* Allinea il contenuto verticalmente al centro */
+    padding: 50px 0 20px; /* Aggiunge spazio sopra e sotto */
+}
+
+h1 {
+    margin: 0; /* Rimuovi il margine predefinito per l'h1 */
+}
+
+
+
+.container {
+    flex: 1; /* Flessione per riempire lo spazio disponibile */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Allinea il contenuto verticalmente al centro */
+    align-items: center; /* Allinea il contenuto orizzontalmente al centro */
+    margin-top: 40px; /* Sposta il contenitore verso il basso */
+}
+
+.phrase-box {
+    background-color: rgba(255, 255, 255, 0.7); /* Sfondo del box */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button#generateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2980b9; /* Colore del bottone */
+    color: white;
+}
+
+button#generateButton:hover {
+    background-color: #345bdb; /* Cambia colore al passaggio del mouse */
+}
+
+#copyButton {
+    padding: 10px 20px;
+    background-color: #5086bb; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    border: 2px solid #5086bb; /* Bordo */
+    border-radius: 5px; /* Bordo arrotondato */
+    cursor: pointer; /* Cambia il cursore quando si passa sopra */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Transizione fluida */
+}
+
+#copyButton:hover {
+    background-color: #0056b3; /* Cambia il colore di sfondo al passaggio del mouse */
+    border-color: #0056b3; /* Cambia il colore del bordo al passaggio del mouse */
+}
